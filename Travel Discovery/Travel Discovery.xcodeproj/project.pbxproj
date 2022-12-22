@@ -12,6 +12,7 @@
 		C702FF39295481DD003A7F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C702FF38295481DD003A7F0F /* Assets.xcassets */; };
 		C702FF3C295481DD003A7F0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C702FF3B295481DD003A7F0F /* Preview Assets.xcassets */; };
 		C702FF4329548245003A7F0F /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C702FF4229548245003A7F0F /* Launch.storyboard */; };
+		C702FF462954A8D8003A7F0F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702FF452954A8D8003A7F0F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C702FF38295481DD003A7F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C702FF3B295481DD003A7F0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C702FF4229548245003A7F0F /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		C702FF452954A8D8003A7F0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		C702FF33295481DB003A7F0F /* Travel Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				C702FF442954A8CC003A7F0F /* Home */,
 				C702FF34295481DB003A7F0F /* Travel_DiscoveryApp.swift */,
 				C702FF36295481DB003A7F0F /* ContentView.swift */,
 				C702FF38295481DD003A7F0F /* Assets.xcassets */,
@@ -68,6 +71,14 @@
 				C702FF3B295481DD003A7F0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C702FF442954A8CC003A7F0F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C702FF452954A8D8003A7F0F /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C702FF462954A8D8003A7F0F /* HomeView.swift in Sources */,
 				C702FF37295481DB003A7F0F /* ContentView.swift in Sources */,
 				C702FF35295481DB003A7F0F /* Travel_DiscoveryApp.swift in Sources */,
 			);
