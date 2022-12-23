@@ -11,3 +11,11 @@ struct Category: Identifiable {
     let id = UUID()
     let name, imageName: String
 }
+
+let categories: [Category] = [
+    .init(name: "Art", imageName: "paintpalette.fill"),
+    .init(name: "Sport", imageName: "sportscourt.fill"),
+    .init(name: "Live Events", imageName: "music.mic"),
+    .init(name: "Food", imageName: "fork.knife.circle.fill"),
+    .init(name: "History", imageName: "music.mic")
+]
