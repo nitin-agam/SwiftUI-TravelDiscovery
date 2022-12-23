@@ -63,9 +63,9 @@ struct PlaceView: View {
             }
             .padding(.trailing, 10)
         }
-        .background(Color.white.opacity(0.7))
+        .background(Color.white)
         .cornerRadius(10)
-        .shadow(color: .gray, radius: 3, x: 0, y: 2)
+        .shadow(color: Color(.sRGB, white: 0.8, opacity: 0.2), radius: 4, x: 0, y: 2)
     }
 }
 

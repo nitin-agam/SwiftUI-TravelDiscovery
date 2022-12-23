@@ -9,22 +9,46 @@ import SwiftUI
 
 struct HomeView: View {
     
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [
+            .foregroundColor: UIColor.white
+        ]
+    }
+    
     var body: some View {
         
         NavigationView {
-            ScrollView(.vertical, showsIndicators: false) {
+            
+            ZStack {
                 
-                // MARK: - Discover Categories View
-                DiscoverCategoriesView()
+                LinearGradient(gradient: Gradient(colors: [Color("ColorOrangeLight"), Color("ColorOrangeDark")]),
+                               startPoint: .top,
+                               endPoint: .center)
+                    .ignoresSafeArea()
                 
-                // MARK: - Popular Destinations View
-                PopularDestinationsView()
+                Color(.init(white: 0.95, alpha: 1))
+                    .offset(y: 400)
                 
-                // MARK: - Popular Places View
-                PopularPlacesView()
                 
-                // MARK: - Trending Creators View
-                TrendingCreatorsView()
+                ScrollView(.vertical, showsIndicators: false) {
+                    
+                    // MARK: - Discover Categories View
+                    DiscoverCategoriesView()
+                    
+                    VStack {
+                        // MARK: - Popular Destinations View
+                        PopularDestinationsView()
+                        
+                        // MARK: - Popular Places View
+                        PopularPlacesView()
+                        
+                        // MARK: - Trending Creators View
+                        TrendingCreatorsView()
+                    }
+                    .background(Color(.init(white: 0.95, alpha: 1)))
+                    .cornerRadius(16)
+                    .padding(.top, 32)
+                }
             }
             .navigationTitle("Discover")
         }
