@@ -21,6 +21,7 @@
 		C702FF532955CB87003A7F0F /* TrendingCreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702FF522955CB87003A7F0F /* TrendingCreatorsView.swift */; };
 		C702FF552955D003003A7F0F /* Restuarant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702FF542955D003003A7F0F /* Restuarant.swift */; };
 		C702FF582955D543003A7F0F /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C702FF572955D543003A7F0F /* TileModifier.swift */; };
+		C76776F52955FA0500F6E67A /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76776F42955FA0500F6E67A /* Creator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		C702FF522955CB87003A7F0F /* TrendingCreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCreatorsView.swift; sourceTree = "<group>"; };
 		C702FF542955D003003A7F0F /* Restuarant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restuarant.swift; sourceTree = "<group>"; };
 		C702FF572955D543003A7F0F /* TileModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModifier.swift; sourceTree = "<group>"; };
+		C76776F42955FA0500F6E67A /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				C702FF482955960B003A7F0F /* Category.swift */,
 				C702FF4A2955B65F003A7F0F /* Destination.swift */,
 				C702FF542955D003003A7F0F /* Restuarant.swift */,
+				C76776F42955FA0500F6E67A /* Creator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				C702FF4B2955B65F003A7F0F /* Destination.swift in Sources */,
 				C702FF35295481DB003A7F0F /* Travel_DiscoveryApp.swift in Sources */,
 				C702FF4F2955CB3F003A7F0F /* PopularDestinationsView.swift in Sources */,
+				C76776F52955FA0500F6E67A /* Creator.swift in Sources */,
 				C702FF492955960B003A7F0F /* Category.swift in Sources */,
 				C702FF4D2955CB12003A7F0F /* DiscoverCategoriesView.swift in Sources */,
 				C702FF532955CB87003A7F0F /* TrendingCreatorsView.swift in Sources */,
